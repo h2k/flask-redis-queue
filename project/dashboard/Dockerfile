@@ -4,7 +4,7 @@ RUN pip install rq-dashboard
 
 # https://github.com/rq/rq/issues/1469
 RUN pip uninstall -y click
-RUN pip install click==7.1.2
+RUN pip install click
 
 EXPOSE 9181
 
